@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181A113421F56ABB00EDA65C /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A113321F56ABB00EDA65C /* NSString+Util.m */; };
+		181A114C21F5B02700EDA65C /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 181A114B21F5B02700EDA65C /* Resources.bundle */; };
 		181AAE7121F309BA00B7E394 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AAE7021F309BA00B7E394 /* AppDelegate.m */; };
 		181AAE7421F309BA00B7E394 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AAE7321F309BA00B7E394 /* ViewController.m */; };
 		181AAE7721F309BA00B7E394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181AAE7521F309BA00B7E394 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		181AAE7F21F309BD00B7E394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AAE7E21F309BD00B7E394 /* main.m */; };
 		181AAE8921F309BD00B7E394 /* UIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AAE8821F309BD00B7E394 /* UIDemoTests.m */; };
 		181AAE9421F309BD00B7E394 /* UIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AAE9321F309BD00B7E394 /* UIDemoUITests.m */; };
+		181AAEA421F313B600B7E394 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AAEA321F313B600B7E394 /* UIColor+Util.m */; };
+		18FA9C6421F5C39C00A28807 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA9C6321F5C39C00A28807 /* UIImage+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181A113221F56ABA00EDA65C /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		181A113321F56ABB00EDA65C /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		181A114B21F5B02700EDA65C /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 		181AAE6C21F309BA00B7E394 /* UIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181AAE6F21F309BA00B7E394 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		181AAE7021F309BA00B7E394 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		181AAE8F21F309BD00B7E394 /* UIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181AAE9321F309BD00B7E394 /* UIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDemoUITests.m; sourceTree = "<group>"; };
 		181AAE9521F309BD00B7E394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181AAEA221F313B600B7E394 /* UIColor+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		181AAEA321F313B600B7E394 /* UIColor+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		18FA9C6221F5C39C00A28807 /* UIImage+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		18FA9C6321F5C39C00A28807 /* UIImage+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181A114321F5A27B00EDA65C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				181AAEA221F313B600B7E394 /* UIColor+Util.h */,
+				181AAEA321F313B600B7E394 /* UIColor+Util.m */,
+				181A113221F56ABA00EDA65C /* NSString+Util.h */,
+				181A113321F56ABB00EDA65C /* NSString+Util.m */,
+				18FA9C6221F5C39C00A28807 /* UIImage+Util.h */,
+				18FA9C6321F5C39C00A28807 /* UIImage+Util.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 		181AAE6321F309BA00B7E394 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +125,12 @@
 		181AAE6E21F309BA00B7E394 /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				181A114321F5A27B00EDA65C /* util */,
 				181AAE6F21F309BA00B7E394 /* AppDelegate.h */,
 				181AAE7021F309BA00B7E394 /* AppDelegate.m */,
 				181AAE7221F309BA00B7E394 /* ViewController.h */,
 				181AAE7321F309BA00B7E394 /* ViewController.m */,
+				181A114B21F5B02700EDA65C /* Resources.bundle */,
 				181AAE7521F309BA00B7E394 /* Main.storyboard */,
 				181AAE7821F309BD00B7E394 /* Assets.xcassets */,
 				181AAE7A21F309BD00B7E394 /* LaunchScreen.storyboard */,
@@ -238,6 +264,7 @@
 				181AAE7C21F309BD00B7E394 /* LaunchScreen.storyboard in Resources */,
 				181AAE7921F309BD00B7E394 /* Assets.xcassets in Resources */,
 				181AAE7721F309BA00B7E394 /* Main.storyboard in Resources */,
+				181A114C21F5B02700EDA65C /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				181AAE7421F309BA00B7E394 /* ViewController.m in Sources */,
+				181AAEA421F313B600B7E394 /* UIColor+Util.m in Sources */,
+				181A113421F56ABB00EDA65C /* NSString+Util.m in Sources */,
 				181AAE7F21F309BD00B7E394 /* main.m in Sources */,
 				181AAE7121F309BA00B7E394 /* AppDelegate.m in Sources */,
+				18FA9C6421F5C39C00A28807 /* UIImage+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY7JQ48A7Q;
 				INFOPLIST_FILE = UIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY7JQ48A7Q;
 				INFOPLIST_FILE = UIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
